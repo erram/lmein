@@ -1,0 +1,19 @@
+
+  input:focus {
+    outline: none;
+  }
+
+  body {
+    background-image: url("https://i.redd.it/3lxlwac0rfmx.png");
+     background-attachment: fixed;
+     font: normal 20px/normal "Antic", Helvetica, sans-serif;
+  }
+
+  .clearfix {
+    clear: both;
+  }
+
+  .contacts-container {
+    width: 80%;
+    margin: auto;
+  }

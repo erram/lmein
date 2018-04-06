@@ -1,0 +1,63 @@
+  .contact {
+    margin: 10px 0px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    color: #333;
+    font-size: 0.9rem;
+    text-align: left;
+    box-shadow: 1px 1px 1px 0px #333;
+    transition: all .15s ease-in-out;
+  }
+  .image {
+    width: 10%;
+  }
+  .data {
+    width: 90%;
+  }
+  .image,.data,.handler {
+    float: left;
+  }
+
+  .contact img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0;
+    display: block;
+  }
+
+  .contact .data {
+    height: 40px;
+  }
+
+  .contact .email {
+    font-size: 10px;
+    color: #b7c0ce;
+    display: block;
+  }
+
+  .contact .company, .phone, .city {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    font-size: 14px;
+  }
+
+  .phone,.company,.city {
+    margin-right: 20px;
+    min-width: 100px;
+  }
+  .company {
+    min-width: 140px;
+  }
+
+  .left {
+    float: left;
+    padding: 6px 10px 0 0;
+    margin-right: 30px;
+    
+    width: 125px;
+  }

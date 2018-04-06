@@ -1,0 +1,10 @@
+<md-card class="search-bar">
+  <md-card-content>
+    <md-input-container>
+      <input class="button" mdInput (ngModelChange)="onSearchTextChange(searchText)" [(ngModel)]="searchText" placeholder="Search books" [value]="searchText">
+    </md-input-container>
+    <md-spinner [class.show]="searching"></md-spinner>
+  </md-card-content>
+</md-card>
+
+<ngb-books-list class="book-list" [books]="books"></ngb-books-list>

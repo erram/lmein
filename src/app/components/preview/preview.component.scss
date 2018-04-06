@@ -1,0 +1,42 @@
+.inner {
+  padding-bottom: 15px;
+  padding-top: 30px;
+  min-height: 220px;
+}
+
+span {
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  box-shadow: -5px 0px 14px 1px rgba(79,79,79,0.4);
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  transition: .3s;
+
+  img {
+    transition: .3s;
+    width: 145px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    height: 217px;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #333;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &:hover {
+    transition: .3s;
+    color:#f90;
+  }
+}
+
+p {
+  margin: 0px
+}

@@ -1,0 +1,9 @@
+.book-cell {
+  padding-left: 10px;
+  padding-right: 10px;
+
+  &.col-sm-3 {
+    float: left;
+    width: 200px;
+  }
+}

@@ -1,0 +1,12 @@
+  <div class="inner">
+    <span class="image-link">
+      <img md-card-sm-image *ngIf="thumbnail" [src]="thumbnail"/>
+    </span>
+  </div>
+  <div>
+      <div>
+        <p>
+          <a [routerLink]="['/book', id]">{{ title | ellipsis:35 }}</a>
+        </p>
+      </div>
+  </div>
