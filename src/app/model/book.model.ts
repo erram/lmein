@@ -4,6 +4,7 @@ export interface Book {
     title: string;
     authors: string[];
     publisher: string;
+    subtitle: string;
     publishedDate: string;
     description: string;
     averageRating: number;

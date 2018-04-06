@@ -38,10 +38,10 @@ export class BookDetailsComponent implements OnInit {
 
   addBook(book) {
     if(JSON.parse(localStorage.getItem('session'))) {
-      var b = JSON.parse(localStorage.getItem('session')));
+      var b = JSON.parse(localStorage.getItem('session'));
       b.push(book.id)
       localStorage.clear();
-      localStorage.setItem('session', JSON.stringify(b);
+      localStorage.setItem('session', JSON.stringify(b));
     } else {
       var a = [];
       a.push(book.id);
@@ -50,17 +50,17 @@ export class BookDetailsComponent implements OnInit {
   }
 
   removeBook(book) {
-    var b = JSON.parse(localStorage.getItem('session')));
+    var b = JSON.parse(localStorage.getItem('session'));
     for(var i = b.length; i--;) {
       // Kiszedés
       if ( b[i] === book.id) b.splice(i, 1);
     }
     localStorage.clear();
-    localStorage.setItem('session', JSON.stringify(b);
+    localStorage.setItem('session', JSON.stringify(b));
   }
 
   inCollection(book) {
-    var b = JSON.parse(localStorage.getItem('session')));
+    var b = JSON.parse(localStorage.getItem('session'));
     if(b.includes(book.id)){
       return true
     }
