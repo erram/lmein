@@ -5,6 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class EllipsisPipe implements PipeTransform {
 
+// Jobb eltávolítani mert bezavarja a renderelést
   transform(str: string, strLength: number = 250) {
     const withoutHtml = str.replace(/(<([^>]+)>)/ig, '');
 

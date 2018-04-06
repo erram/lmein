@@ -10,14 +10,13 @@
     <p [innerHtml]="description"></p>
   </md-card-content>
   <md-card-footer class="footer">
-    <!-- <bc-book-authors [book]="book"></bc-book-authors> -->
   </md-card-footer>
   <md-card-actions class="mat-card-actions" align="start">
     <button class="mat-raised-button mat-primary" color="warn" *ngIf="inCollection(book)" (click)="removeBook(book)">
-    Remove Book from Collection
+    Remove Book from Cart
     </button>
     <button class="mat-raised-button mat-primary" color="primary" *ngIf="!inCollection(book)" (click)="addBook(book)">
-    Add Book to Collection
+    Add Book to Cart
     </button>
   </md-card-actions>
 </md-card>
