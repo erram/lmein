@@ -1,5 +1,5 @@
 import { RouterModule } from '@angular/router';
-import { BooksModule } from './model/book.module';
+import { BooksModule } from '.app/model/book.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
